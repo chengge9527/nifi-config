@@ -357,7 +357,8 @@ binds {
     Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "kitty" "-e" "fish"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Mod+W {spawn "firefox"; }
-    Mod+F2 {spawn-sh "pkill waybar || true && waybar";}
+    Mod+F1 hotkey-overlay-title="开关输入法" {spawn-sh "pkill fcitx5 || fcitx5 ";}
+    Mod+F2 hotkey-overlay-title="重启waybar" {spawn-sh "pkill waybar || true && waybar";}
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
