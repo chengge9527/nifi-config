@@ -315,7 +315,7 @@ window-rule {
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
     match app-id="waypaper"
-    match app-id="pavucontrol"
+    match app-id="org.pulseaudio.pavucontrol"
     open-floating true
 }
 
