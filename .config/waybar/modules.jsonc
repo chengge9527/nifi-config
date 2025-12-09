@@ -16,8 +16,7 @@
    },
 
    "clock": {
-      "format": "{:%H:%M}",
-      "format-alt": "{:%Y-%m-%d %A}",
+      "format": "{:%m-%d %H:%M}",
       "tooltip-format": "<small>{calendar}</small>",
       "calendar": {
          "mode": "year",

@@ -5,7 +5,7 @@
 @import url("../waybar/colors-waybar.css");
 
 *{
-   font-size: 17px;
+   font-size: 15px;
    font-family: Adwaita Mono;
    font-weight: 600;
    min-height: 0;
@@ -63,6 +63,7 @@ window#waybar {
 
 #clock {
    color: #ffcc66;
+   font-size: 18px;
 }
 
 #cpu {
