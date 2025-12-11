@@ -15,14 +15,15 @@
 
 window#waybar {
    background: rgba(0, 0, 0, 0.3);
-   color: #E0E0E0;
+   color: @fg_color;
 }
 
 #workspaces button {
+   background: @bg_color;
    color: @fg_color;
    margin: 2px;
    padding: 0px;
-   border-radius: 2px;
+   border-radius: 4px;
 }
 
 #workspaces button:hover {
@@ -66,17 +67,18 @@ window#waybar {
 }
 
 #cpu {
-   color: #E0E0E0;
+   color: #BB9AF7;
 }
 
 #memory {
-   color: #E0E0E0;
+   color: #bb9af7;
 }
 
 #pulseaudio {
-   color: #E0E0E0;
+   color: #bb9af7;
 }
 
 #tray {
-   color: #E0E0E0;
+   background-color: @tray_color;
 }
+
