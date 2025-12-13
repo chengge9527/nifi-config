@@ -317,7 +317,9 @@ window-rule {
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
     match app-id="waypaper"
+    match app-id="org.gnome.Nautilus"
     match app-id="org.pulseaudio.pavucontrol"
+    match app-id="org.fcitx.fcitx5-config-qt"
     match app-id="Waydroid"
     match app-id="waydroid.com.huanmeng.zhanjian2"
     open-floating true
